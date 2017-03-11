@@ -21,6 +21,7 @@ function onDeviceReady(): void {
 
     let cam = new Camera2();
     cam.start();
+    // hoge
 
     $('.camera').on('click', () => {
         cam.start();

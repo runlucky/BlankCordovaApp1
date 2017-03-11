@@ -19,6 +19,7 @@ define(["require", "exports"], function (require, exports) {
         receivedElement.setAttribute('style', 'display:block;');
         var cam = new Camera2();
         cam.start();
+        // hoge
         $('.camera').on('click', function () {
             cam.start();
         });
